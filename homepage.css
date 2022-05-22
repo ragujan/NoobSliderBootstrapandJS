@@ -1,0 +1,318 @@
+.mainHeader {
+    background-color: #0E1417;
+}
+
+.darkBlue {
+    background-color: #111827;
+}
+
+.blackBlue {
+    background-color: #0E1417;
+}
+
+.navbarLogo {
+    width: 70px;
+    max-width: 100%;
+}
+
+.searchInputField {
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.searchInputField:focus {
+    border: 1px solid darkblue;
+}
+
+.searchButton {
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: rgb(174, 213, 222);
+    transition: background-color 0.2s linear;
+}
+
+.searchButton:hover {
+    background-color: #0c6775;
+}
+
+.upsideItems span {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.downsideItemsDiv {
+    transition: background-color 0.2s linear;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.downsideItems span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.downsideItemsDiv:hover {
+    background-color: rgb(174, 213, 222);
+    color: black;
+
+}
+
+.navbarMainItemsDiv {
+    position: relative;
+}
+
+.navbarDropDownItemsDiv {
+    position: absolute;
+    z-index: 20;
+    left: 0;
+}
+.navbarDropDownItemsDivSM{
+    
+}
+.navbarDropDownItemsDivSmallSize{
+    height: 0;
+}
+.navbarDropDownItems {
+    background-color: rgb(2, 2, 11);
+}
+
+.navbarDropDownItems:hover {
+    background-color: rgb(174, 213, 222);
+    color: rgb(2, 2, 11);
+    cursor: pointer;
+}
+
+.secondNavbar{
+    
+}
+.dealsImageDiv {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dealText {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.dealsImage {
+    width: 300px;
+    max-width: 100%;
+}
+
+.absoluteContentDiv {
+    height: 100%;
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.absoluteContentDiv:hover {
+    background-color: black;
+    opacity: 0.4;
+}
+
+.divHeaderText {
+    border-bottom: 1px solid white;
+
+}
+.productHolderContainerDiv{
+    position: relative;
+
+}
+.wishListAbsoluteDiv{
+    top: 20%;
+    right: 5%;
+    position: absolute;
+}
+.wishListAbsoluteDiv img{
+    width: 35px;
+    cursor: pointer;
+}
+.searchIconAbsoluteDiv{
+    top: 28%;
+    right: 5%;
+    position: absolute; 
+}
+.searchIconAbsoluteDiv img{
+    width: 30px;
+    cursor: pointer;
+}
+.someProductDiv {
+    
+}
+
+.productDiv {
+    border-radius: 8px;
+}
+
+.productDivColor {
+
+    background-color: #111827;
+}
+
+.productImageDiv {
+    transition: linear 0.5s background-color;
+}
+
+.productImageDiv:hover {
+    background-color: black;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.productImage {
+    width: 150px;
+    max-width: 100%;
+}
+
+.viewButton {
+    background-color: rgb(174, 213, 222);
+    color: rgb(2, 2, 11);
+    border-radius: 4px;
+    transition: all 0.2s linear;
+}
+
+.cartButton {
+    background-color: rgb(174, 213, 222);
+    color: rgb(2, 2, 11);
+    border-radius: 4px;
+    transition: all 0.2s linear;
+}
+
+.viewButton:hover {
+    color: rgb(174, 213, 222);
+    background-color: rgb(2, 2, 11);
+}
+
+.cartButton:hover {
+    color: rgb(174, 213, 222);
+    background-color: rgb(2, 2, 11);
+}
+
+.df {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.userIconPng {
+    width: 30px;
+    max-width: 100%;
+}
+
+.cartIconPng {
+    width: 30px;
+    max-width: 100%;
+}
+
+.specialProductDiv {
+    position: relative;
+    overflow-y: hidden;
+    background-image: url("../images/pyor.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.specialProductBgImageDiv {
+    position: absolute;
+    
+
+    z-index: -1;
+    height: 100%;
+ 
+}
+
+.specialProductImage {
+    width: 100%;
+    background-color: black;
+
+}
+
+.specialProductDetailsDiv {
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.checkoutBtn {
+    border-radius: 8px;
+    background-color: #0c6775;
+    transition: all 0.5s linear;
+}
+
+.checkoutBtn:hover {
+    background-color: #0E1417;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.owlCaroItem {
+    border-radius: 8px;
+}
+.newArrivalDivContainer{
+    border-radius: 8px;
+}
+.newArrivalsImagesDiv img{ 
+    height: 150px;
+    max-width: 100%;
+    border-radius: 4px;
+}
+.footerLogo {
+    width: 200px;
+    max-width: 100%;
+}
+.footerOptionsDiv{
+    font-size: 14px;
+}
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .specialProductImage {
+        height: 100%;
+       
+
+    }
+}
+
+@media (max-width: 576px) {
+    .specialProductParaDiv p {
+        font-size: 15px;
+    }
+    .df {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    .wishListAbsoluteDiv{
+        top: 20%;
+        right: 2%;
+        position: absolute;
+    }
+    .wishListAbsoluteDiv img{
+        width: 35px;
+        cursor: pointer;
+    }
+    .searchIconAbsoluteDiv{
+        top: 28%;
+        right: 2%;
+        position: absolute; 
+    }
+}

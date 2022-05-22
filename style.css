@@ -11,8 +11,7 @@
     flex-direction: row;
 }
 .popHotSliderImage{
-    width: 300px;
-    max-width: 100%;
+
 }
 .popHotDotsDiv{
     position: absolute;
