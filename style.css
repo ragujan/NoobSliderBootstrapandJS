@@ -1,0 +1,28 @@
+.popHotsliderContainerHolder{
+    position: relative;
+}
+.popHotsliderImageContainerHolder{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.popHotSliderImageContainer{
+    display: flex;
+    flex-direction: row;
+}
+.popHotSliderImage{
+    width: 300px;
+    max-width: 100%;
+}
+.popHotDotsDiv{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 80%;
+}
+.popNavigateCircles{
+    width: 25px;
+    cursor: pointer;
+}
